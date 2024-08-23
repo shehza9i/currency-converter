@@ -176,7 +176,7 @@ function getDate(timestamp = Date.now()) {
     .format(new Date(timestamp))
     .split("/");
 
-  return `${yr}.${Number(mo)}.${da}`;
+  return `${yr}.${Number(mo)}.${Number(da)}`;
 }
 
 function getConversion(from, to, amount, date = getDate()) {
