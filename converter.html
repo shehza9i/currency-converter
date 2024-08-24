@@ -8,14 +8,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="converter.css" />
+    <link rel="stylesheet" href="converter2.css" />
   </head>
   <body>
     <form id="form" class="container">
       <h1>currency converter</h1>
       <div class="amount">
         <p>Enter Amount</p>
-        <input id="amount" value="100" type="text" name="" id="" />
+        <input id="amount" value="1" type="text" name="" id="" />
       </div>
       <div class="dropdown">
         <div class="from">
@@ -26,7 +26,8 @@
               src="https://flagsapi.com/FR/shiny/64.png"
               alt="country flag"
             />
-            <select name="from" id="fromSelect"></select>
+            <select name="from" id="fromSelect">
+            </select>
           </div>
         </div>
 
@@ -49,6 +50,7 @@
       <br />
       <button class="exchange" type="submit">Get Exchange Rate</button>
     </form>
-    <script src="converter.js"></script>
+    <script src="raw.js"></script>
+    <script src="converter2.js"></script>
   </body>
 </html>
