@@ -83,6 +83,7 @@
   .dropdown i {
     font-size: 1.5rem;
     margin-top: 3.5rem;
+    display: none;
   }
   
   .exchange {
@@ -105,7 +106,7 @@
     border-radius: 8px;
     margin-left: 10px;
     width: fit-content;
-    padding: 0;
+    padding: 2px;
   }
   
   .select-container img {
@@ -117,4 +118,21 @@
     justify-content: center;
     align-items: center;
     width: 7rem;
+  }
+
+  .fa-solid {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    background-color: white;
+    cursor: pointer;
+    border: none; 
+  }
+
+  @media (max-width: 500px) and (min-width: 300px) {
+    .container {
+      padding: 1.2rem;
+    }
+    select {
+      padding: 1.5px;
+    }
   }
